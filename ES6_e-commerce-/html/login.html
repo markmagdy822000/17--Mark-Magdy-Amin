@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- <link rel="stylesheet" href="../css/register-form.css"> -->
+    <link rel="stylesheet" href="../css/login-form.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+
+<body>
+    <section class="mt-5 center login-form-container">
+        <h1>Login</h1>
+        <form id="login-form" action="">
+
+            <section class="mb-3 input-section email-section">
+                <label class="form-label " for="emailIn">Email</label>
+                <input id="emailIn" class="email form-control " type="email">
+            </section>
+
+            <section class="mb-3 input-section password-section">
+                <label class="form-label " for="passwordIn">Password</label>
+                <input id="passwordIn" class="password form-control " type="password">
+            </section>
+
+            <span class="error-login">No such email or password</span>
+
+            <button type="submit" class="btn btn-primary">Login</button>
+
+
+        </form>
+
+        <script type="module" src="../js/login.js"></script>
+        <script type="module" src="../js/auth.js"></script>
+</body>
+
+</html>

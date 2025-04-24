@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/register-form.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+
+<body>
+    <section class="mt-5 center register-form-container">
+        <h1>Register</h1>
+        <form id="register-form" action="./html/login.html">
+            <section class="mb-3 input-section name-section">
+                <label class="form-label " for="nameIn">Name</label>
+                <input id="nameIn" class="name form-control " type="text">
+                <section class="error-name">Please, Enter valid name</section>
+            </section>
+
+            <section class="mb-3 input-section email-section">
+                <label class="form-label " for="emailIn">Email</label>
+                <input id="emailIn" class="email form-control " type="email">
+                <span class="error-email">Please, Enter valid email</span>
+
+            </section>
+
+            <section class="mb-3 input-section password-section">
+                <label class="form-label " for="passwordIn">Password</label>
+                <input id="passwordIn" class="password form-control " type="password">
+                <span class="error-password">Please, Enter valid password</span>
+
+            </section>
+
+            <section class="mb-3 input-section confirm-password-section">
+                <label class="form-label " for="confirm-passwordIn">Confirm Password</label>
+                <input id="confirm-passwordIn" class=" form-control confirm-password" type="password">
+                <span class="error-email">Confirm password must be same as password</span>
+
+            </section>
+            <span class="error-register"></span>
+            <button type="submit" id="submit" class="btn btn-primary">Register</button>
+            <button id="hasAccount" class="btn btn-primary">Login</button>
+        </form>
+    </section>
+    <script type="module" src="./js/register.js"></script>
+    <script type="module" src="./js/validations.js"></script>
+</body>
+
+</html>

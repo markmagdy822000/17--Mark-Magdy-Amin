@@ -1,0 +1,133 @@
+header {
+  width: 100%;
+  .nav {
+    position: fixed;
+    z-index: 2;
+    /* margin-bottom: 50px; */
+    background-color: #fff;
+    top: 0;
+    height: 80px;
+    object-fit: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li,
+    li a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80%;
+      margin: 10px;
+    }
+
+    .notification {
+      position: relative;
+      left: 50px;
+      top: -10px;
+    }
+  }
+}
+
+.site-footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 40px 0 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+
+  h3 {
+    color: #f39c12;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+
+  p,
+  li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+
+  a {
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  a:hover {
+    color: #f39c12;
+  }
+}
+
+.footer-bottom {
+  position: relative;
+  background-color: #1a252f;
+  padding: 20px 0;
+  text-align: center;
+
+  p {
+    margin: 0;
+    color: #bdc3c7;
+    font-size: 0.9rem;
+  }
+}
+
+.social-icons {
+  margin-top: 15px;
+
+  a {
+    color: #ecf0f1;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+
+  a:hover {
+    color: #f39c12;
+  }
+}
+
+.fas,
+.fab {
+  margin-right: 8px;
+}
+
+.back-to-top {
+  width: 20px;
+  padding: 7px;
+  /* font-size: 16px; */
+  cursor: pointer;
+  /* color: #ffffff; */
+  background-color: #999;
+  /* margin-top: 15px; */
+  border-radius: 5px;
+  width: fit-content;
+  position: absolute;
+  right: 20px;
+  bottom: 50px;
+
+  margin: 0 auto;
+  transition: background-color 0.3s;
+  .arrow-up {
+    width: 20px;
+  }
+}
+
+.back-to-top:hover {
+  background-color: green;
+}
