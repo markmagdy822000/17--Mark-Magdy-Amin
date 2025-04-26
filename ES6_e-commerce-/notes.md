@@ -1,5 +1,0 @@
-- Create footer
-- LISTEN TO PROJECT RECORD AGAIN
-- check validations by deepseek
-- Make deepseek create better design
-- Animations, css hovering
